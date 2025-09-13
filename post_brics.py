@@ -110,9 +110,10 @@ def main():
     write_exploded(names, frag_lists, frag2id, outdir / "frags_exploded.csv")
 
     print(f"✅ 完成。词表 {len(vocab)} 个片段；index 行数 {len(names)}。")
-    print(f"   - 词表：{(outdir/'ring_total_list.csv').resolve()}")
+    print(f"   - 词表：{(outdir/'fragment_total_list.csv').resolve()}")
     print(f"   - 索引：{(outdir/'index_data.csv').resolve()}")
     print(f"   - 竖表：{(outdir/'frags_exploded.csv').resolve()}")
 
 if __name__ == "__main__":
     main()
+
