@@ -1,5 +1,5 @@
 # FreMFp
-Machine learning with frequency molecular fingerprint (FreMFp) for OSCs donor materials
+Machine learning with frequency molecular fingerprint (FreMFp) for OSCs donor materials.
 Based on the design process of polymer donor materials, we proposed the frequency molecular fingerprint (FreMFp).
 The main tasks in this project include:-----
 1.Input file (test.csv) and run brics_idmap.py to get the molecular substructures obtained by BRICS rule-based fragmentation and produces a fragment list (batchsplit2.CSV) file, with one row per    molecule and its fragments. -----
